@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+.wrap{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.card{
+    width: 250px;
+    border: 2px solid orangered;
+    transition: 2s;
+
+    &:hover{
+        transform: scale(1.6);
+    }
+}\
